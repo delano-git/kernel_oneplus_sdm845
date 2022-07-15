@@ -43,14 +43,14 @@ else
 	TIMESTAMP=$KBUILD_BUILD_TIMESTAMP
 fi
 if test -z "$KBUILD_BUILD_USER"; then
-	LINUX_COMPILE_BY='Terminator-J'
+	LINUX_COMPILE_BY='delano-git'
 else
-	LINUX_COMPILE_BY='Terminator-J'
+	LINUX_COMPILE_BY='delano-git'
 fi
 if test -z "$KBUILD_BUILD_HOST"; then
-	LINUX_COMPILE_HOST='crDroid'
+	LINUX_COMPILE_HOST='PixelExtended'
 else
-	LINUX_COMPILE_HOST='crDroid'
+	LINUX_COMPILE_HOST='PixelExtended'
 fi
 
 UTS_VERSION="#$VERSION"
